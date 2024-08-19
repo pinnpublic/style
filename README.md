@@ -6,7 +6,7 @@ This is a class library repository.
 
 ## Demos
 
-[http://pinnpublic.dothome.co.kr/cdn/template.html](http://pinnpublic.dothome.co.kr/cdn/template.html)
+[Click to view the demo](https://bit.ly/3WPwC1S)
 
 <br>
 
