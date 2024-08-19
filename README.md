@@ -6,7 +6,7 @@ This is a class library repository.
 
 ## Demo
 
-[Click to view the demo](https://bit.ly/3WPwC1S)
+[https://bit.ly/3WPwC1S](https://bit.ly/3WPwC1S)
 
 <br>
 
