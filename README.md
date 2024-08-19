@@ -38,6 +38,8 @@ Copy the following code and add it before the &lt;/head&gt; tag in the HTML docu
 <!-- 
 full version
 &lt;link rel="stylesheet" href="https://me2.do/xmPHeA6J"&gt;
+
+<link rel="stylesheet" href="https://me2.do/5BvBFJ57">
 -->
 
 <br>
@@ -67,13 +69,17 @@ https://fonts.google.com/icons
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
-    <link rel="stylesheet" href="https://me2.do/5BvBFJ57">
+    <link rel="stylesheet" href="http://bit.ly/3WJ5ilK">
 </head>
 <body>
     <h1>Main Title <small>Sub Title</small></h1>
 
     <div>Contents</div>
 
+    <script src="https://bit.ly/4cMuheh"></script>
+    <script>
+
+    </script>
 </body>
 </html>
 ```
