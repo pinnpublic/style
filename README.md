@@ -4,7 +4,7 @@ This is a class library repository.
 
 <br>
 
-## Demos
+## Demo
 
 [Click to view the demo](https://bit.ly/3WPwC1S)
 
