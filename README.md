@@ -13,6 +13,17 @@ This is a class library repository.
 ## CDN
 
 Copy the following code and add it to the &lt;head&gt; tag of your HTML document.
+```html
+<link rel="stylesheet" href="http://bit.ly/3WJ5ilK">
+```
+
+Copy the following code and add it before the &lt;/head&gt; tag in the HTML document.
+```html
+<script src="https://bit.ly/4cMuheh"></script>
+```
+
+<!--
+Copy the following code and add it to the &lt;head&gt; tag of your HTML document.
 
 ```html
 <link rel="stylesheet" href="http://pinnpublic.dothome.co.kr/cdn/example-min.css">
@@ -22,6 +33,7 @@ Copy the following code and add it before the &lt;/head&gt; tag in the HTML docu
 ```html
 <script src="http://pinnpublic.dothome.co.kr/cdn/example-min.js"></script>
 ```
+-->
 
 <!-- 
 full version
