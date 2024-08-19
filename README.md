@@ -1,4 +1,4 @@
-# Example CDN
+# Example CSS Framework
 
 This is a class library repository.
 
