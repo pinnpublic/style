@@ -44,7 +44,7 @@ full version
 
 ## Google Icons
 
-[link] https://fonts.google.com/icons
+https://fonts.google.com/icons
 
 <br>
 
