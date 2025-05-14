@@ -389,6 +389,8 @@ https://fonts.google.com/icons
 
 페이지 바를 만든다.
 
+- `<a href="#!" class="page now">5</a>`: 현재 페이지
+
 ``` html
 <div class="pagebar">
     <a href="#!" class="prev">&lt;&lt;</a>
