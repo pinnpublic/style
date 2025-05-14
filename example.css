@@ -517,6 +517,347 @@ button .material-symbols-outlined {
 	top: 4px;
 }
 
+button.home::before {
+	font-family: var(--icon-font);
+  	content: '\e88a';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.search::before {
+	font-family: var(--icon-font);
+  	content: '\e8b6';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.close::before {
+	font-family: var(--icon-font);
+  	content: '\e5cd';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.settings::before {
+	font-family: var(--icon-font);
+  	content: '\e8b8';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.favorite::before {
+	font-family: var(--icon-font);
+  	content: '\e87d';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.star::before {
+	font-family: var(--icon-font);
+  	content: '\e838';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.more::before {
+	font-family: var(--icon-font);
+  	content: '\e5d3';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.checkbox::before {
+	font-family: var(--icon-font);
+  	content: '\f1fe';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.dialog::before {
+	font-family: var(--icon-font);
+  	content: '\e99f';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.calendar::before {
+	font-family: var(--icon-font);
+  	content: '\ebcc';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.timer::before {
+	font-family: var(--icon-font);
+  	content: '\e425';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.map::before {
+	font-family: var(--icon-font);
+  	content: '\e55b';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.marker::before {
+	font-family: var(--icon-font);
+  	content: '\e55b';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.bookmark::before {
+	font-family: var(--icon-font);
+  	content: '\e866';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.tag::before {
+	font-family: var(--icon-font);
+  	content: '\f05b';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.image::before {
+	font-family: var(--icon-font);
+  	content: '\e3f4';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.folder::before {
+	font-family: var(--icon-font);
+  	content: '\e2c7';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.desc::before {
+	font-family: var(--icon-font);
+  	content: '\e873';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.attach::before {
+	font-family: var(--icon-font);
+  	content: '\e2bc';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.copy::before {
+	font-family: var(--icon-font);
+  	content: '\e173';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.paste::before {
+	font-family: var(--icon-font);
+  	content: '\e14f';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.click::before {
+	font-family: var(--icon-font);
+  	content: '\f718';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.keyboard::before {
+	font-family: var(--icon-font);
+  	content: '\e312';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.refresh::before {
+	font-family: var(--icon-font);
+  	content: '\e5d5';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.pause::before {
+	font-family: var(--icon-font);
+  	content: '\e034';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.secret::before {
+	font-family: var(--icon-font);
+  	content: '\e73c';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.person::before {
+	font-family: var(--icon-font);
+  	content: '\e7fd';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.group::before {
+	font-family: var(--icon-font);
+  	content: '\e7ef';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.lock::before {
+	font-family: var(--icon-font);
+  	content: '\e897';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.language::before {
+	font-family: var(--icon-font);
+  	content: '\e894';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.color::before {
+	font-family: var(--icon-font);
+  	content: '\e40a';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.left-panel::before {
+	font-family: var(--icon-font);
+  	content: '\f716';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.right-panel::before {
+	font-family: var(--icon-font);
+  	content: '\f704';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.json::before {
+	font-family: var(--icon-font);
+  	content: '\f3bb';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.markdown::before {
+	font-family: var(--icon-font);
+  	content: '\f552';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.html::before {
+	font-family: var(--icon-font);
+  	content: '\eb7e';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.css::before {
+	font-family: var(--icon-font);
+  	content: '\eb93';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
+
+button.javascript::before {
+	font-family: var(--icon-font);
+  	content: '\eb7c';
+	position: absolute;
+	left: 11px;
+	top: 4px;
+	font-size: 1.25rem;
+}
 
 button.add::before {
 	font-family: var(--icon-font);
