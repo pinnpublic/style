@@ -449,6 +449,8 @@ textarea {
 
 input[type=button], input[type=submit], button {
 	/* width: inherit; */
+	padding-left: .5rem;
+	padding-right: .5rem;
 }
 
 input.short, textarea.short, button.short, select.short {
