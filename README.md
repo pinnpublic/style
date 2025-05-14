@@ -200,6 +200,8 @@ https://fonts.google.com/icons
 <input type="text" name="tel" class="full" placeholder="주소 입력">
 ```
 
+### 버튼
+
 메인 버튼에 색상을 지정할 수 있다. 
 
 - `<input type="button">`
@@ -210,7 +212,7 @@ https://fonts.google.com/icons
 <input type="button" class="primary">
 ```
 
-이미지 버튼
+### 이미지 버튼
 
 - `<button>버튼</button>`
 - `<button class="in">회원가입</button>`
