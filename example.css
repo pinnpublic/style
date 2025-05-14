@@ -1066,6 +1066,7 @@ table th, table td {
 	padding-left: 1rem;
 	padding-right: 1rem;
 	font-weight: normal;
+	text-align: center;
 }
 
 table th {
@@ -1080,6 +1081,7 @@ table.vertical td {
 	width: calc(100% - 182px);
 	padding-left: 1rem;
 	padding-right: 1rem;
+	text-align: left;
 }
 
 
