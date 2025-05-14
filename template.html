@@ -8,6 +8,31 @@
 	<title>Example CSS</title>
 	<link rel="stylesheet" href="http://bit.ly/3WJ5ilK">
 	<!-- <link rel="stylesheet" href="example.css"> -->
+	<style>
+		body > header {
+			position: relative;
+			left: 0;
+			top: 0;
+		}
+		#theme {
+			position: absolute;
+			right: -105px;
+			top: 90px;
+		}
+		#theme > div {
+			font-size: .74rem;
+			border-radius: 3px;
+			margin-bottom: 5px;
+			padding: 3px;
+			cursor: pointer;
+		}
+		#theme > div:hover {
+			background-color: #CCC;
+		}
+		#theme > div:first-child {
+			 background-color: #CCC;
+		}
+	</style>
 </head>
 <body>
 
@@ -21,6 +46,15 @@
 			<li><a hrerf="">menu</a></li>
 			<li><a hrerf="">menu</a></li>
 		</ul>
+		<div id="theme">
+			<div>white(default)</div>
+			<div>black</div>
+			<div>red</div>
+			<div>yellow</div>
+			<div>blue</div>
+			<div>green</div>
+			<div>purple</div>
+		</div>
 	</header>
 
 	<h1 class="main">H1 Title <small>sub title</small></h1>
@@ -296,5 +330,20 @@ System.out.println(a);</pre>
 
 	<script src="https://bit.ly/4cMuheh"></script>
 	<!-- <script src="example.js"></script> -->
+
+	<script>
+
+		document.querySelectorAll("#theme > div").forEach((item) => {
+			item.addEventListener("click", () => {
+				document.querySelectorAll("#theme > div").forEach((item) => {
+					item.style.backgroundColor = "transparent";
+				});
+				item.style.backgroundColor = "#CCC";
+
+				document.querySelector("html").className = "theme-" + item.textContent.toLowerCase();
+			});
+		});
+
+	</script>
 </body>
 </html>
