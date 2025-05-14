@@ -447,11 +447,6 @@ textarea {
 	height: 100px;
 }
 
-input[type=button], input[type=submit], button {
-	/* width: inherit; */
-	padding-left: .5rem;
-	padding-right: .5rem;
-}
 
 input.short, textarea.short, button.short, select.short {
 	width: 100px;
@@ -490,6 +485,8 @@ input[type=button], input[type=submit], button {
 	background-color: var(--secondary-color);
 	cursor: pointer;
 	min-height: 36px;
+	padding-left: .74rem;
+	padding-right: .741rem;
 }
 
 input[type=button].primary, input[type=submit].primary, button.primary {
