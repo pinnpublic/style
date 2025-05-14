@@ -9,6 +9,7 @@
     font-style: normal;
 }
 
+/* 기본 변수 선언 (공통 속성) */
 :root {
 	--text-color: #555; 
 	--sub-text-color: #777; 
@@ -22,6 +23,130 @@
 	--text-font: 'GmarketSansMedium';
 	--icon-font: 'Material Symbols Outlined';
 	--border-color: #CCC;
+	--document-back-color: #FFF;
+	--disabled-color: #EEE;
+	--control-border-color: #BBB;
+	--form-text-color: #555;
+	--disabled-text-color: #555;
+	--btn-border-color: #CCC;
+	--control-back-color: #FFF;
+}
+
+/* 화이트 테마 (기본 테마) */
+:root.theme-white {
+	color: #ff6347;
+	color: #ffd700;
+	color: #1e90ff;
+	color: #adff2f;
+	color: #dda0dd
+}
+
+/* 다크 테마 */
+:root.theme-black {
+    --text-color: #DEDEDE; 
+    --sub-text-color: #AAAAAA; 
+    --back-color: #1E2124;
+    --header-color: #FFFFFF;
+    --primary-color: #2C2F33;
+    --secondary-color: #36393F;
+    --border-color: #777;
+    --document-back-color: #2e3235;
+    --disabled-color: #333;
+    --control-border-color: #BBB;
+	--form-text-color: #DEDEDE
+	--disabled-text-color: #BBB;
+	--btn-border-color: #777;
+	--control-back-color: #2e3235;
+}
+
+/* Red 테마 */
+:root.theme-red {
+	--text-color: #333;
+	--sub-text-color: #555;
+	--back-color: #fff0f0;
+	--header-color: #ff6347;
+	--primary-color: #ffded9;
+	--secondary-color: #fff0f0;
+	--border-color: #ffbcb3;
+	--document-back-color: #FFF;
+	--disabled-color: #f8e6e4;
+	--control-border-color: #ffbcb3;
+	--form-text-color: #333;
+	--disabled-text-color: #777;
+	--btn-border-color: #ffbcb3;
+	--control-back-color: #FFF;
+}
+	
+/* Yellow 테마 */
+:root.theme-yellow {
+	--text-color: #333;
+	--sub-text-color: #555;
+	--back-color: #fffbeb;
+	--header-color: #996c00;
+	--primary-color: #ffe980;
+	--secondary-color: #fff8d6;
+	--border-color: #e6c000;
+	--document-back-color: #FFF;
+	--disabled-color: #f9f5e0;
+	--control-border-color: #e6c000;
+	--form-text-color: #333;
+	--disabled-text-color: #777;
+	--btn-border-color: #e6c000;
+	--control-back-color: #FFF;
+}
+	
+/* Blue 테마 */
+:root.theme-blue {
+	--text-color: #333;
+	--sub-text-color: #555;
+	--back-color: #f0f8ff;
+	--header-color: #1e90ff;
+	--primary-color: #d1e8ff;
+	--secondary-color: #f0f8ff;
+	--border-color: #90c8ff;
+	--document-back-color: #FFF;
+	--disabled-color: #e6f2ff;
+	--control-border-color: #90c8ff;
+	--form-text-color: #333;
+	--disabled-text-color: #777;
+	--btn-border-color: #90c8ff;
+	--control-back-color: #FFF;
+}
+	
+/* Green 테마 */
+:root.theme-green {
+	--text-color: #333;
+	--sub-text-color: #555;
+	--back-color: #e4f7da;
+	--header-color: #4c7a00;
+	--primary-color: #c2e673;
+	--secondary-color: #e8f7d4;
+	--border-color: #8fbd00;
+	--document-back-color: #FFF;
+	--disabled-color: #eafce0;
+	--control-border-color: #8fbd00;
+	--form-text-color: #333;
+	--disabled-text-color: #777;
+	--btn-border-color: #8fbd00;
+	--control-back-color: #FFF;
+}
+	
+/* Purple 테마 */
+:root.theme-purple {
+	--text-color: #333;
+	--sub-text-color: #555;
+	--back-color: #faf0ff;
+	--header-color: #9370db;
+	--primary-color: #f1e0f9;
+	--secondary-color: #faf0ff;
+	--border-color: #ddbcf0;
+	--document-back-color: #FFF;
+	--disabled-color: #f5ebfa;
+	--control-border-color: #ddbcf0;
+	--form-text-color: #333;
+	--disabled-text-color: #777;
+	--btn-border-color: #ddbcf0;
+	--control-back-color: #FFF;
 }
 
 html, body {
@@ -38,7 +163,7 @@ html {
 
 body, body.default {
 	width: var(--default-width);
-	background-color: white;
+	background-color: var(--document-back-color);
 	padding-bottom: 120px;
 }
 
@@ -49,6 +174,54 @@ body.wide {
 body.narrow {
 	width: var(--narrow-width);
 }
+body.w300 {
+	width: 300px;
+}
+body.w400 {
+	width: 400px;
+}
+body.w500 {
+	width: 500px;
+}
+body.w600 {
+	width: 600px;
+}
+body.w700 {
+	width: 700px;
+}
+body.w800 {
+	width: 800px;
+}
+body.w900 {
+	width: 900px;
+}
+body.w1000 {
+	width: 1000px;
+}
+body.w1100 {
+	width: 1100px;
+}
+body.w1200 {
+	width: 1200px;
+}
+body.w1300 {
+	width: 1300px;
+}
+body.w1400 {
+	width: 1400px;
+}
+body.w1500 {
+	width: 1500px;
+}
+body.w1600 {
+	width: 1600px;
+}
+body.w1700 {
+	width: 1700px;
+}
+body.w1800 {
+	width: 1800px;
+}
 
 
 
@@ -57,10 +230,27 @@ body, p, div, span, a, input, select, option, textarea, button, table, th, td, l
 	color: var(--text-color);
 }
 
+body > div,
+body > table,
+body > form,
+body > ul,
+body > ol,
+body > code,
+body > pre {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+body > h1,
+body > h2,
+body > h3 {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
 h1, h2, h3 {
 	font-family: var(--text-font);
 	color: var(--header-color);
-	padding: 0 1rem;	
 	padding-top: .5rem;
 }
 
@@ -68,10 +258,24 @@ div > h1, div > h2, div > h3 {
 	padding: 0;
 }
 
-body > div, body > main > div {
+body > div.message {
+	padding: 0.3rem 1rem;
+	padding-bottom: 0.6rem;
+}
+
+body > main > div {
 	padding: 0.3rem 1rem;
 }
 
+body > div[data-sidebar-window] {
+	padding: 0.5rem 1rem;
+	margin: 0;
+}
+
+body div[data-modal-window] {
+	margin: 0;
+	padding: 0;
+}
 
 h1 { font-size: 2rem; border-bottom: 1px solid var(--border-color); }
 h1 small { font-size: 1.2rem; color: var(--sub-text-color); }
@@ -124,7 +328,7 @@ body > header {
 	justify-content: space-between;
 	border-bottom: 5px solid var(--border-color);
 	min-height: 74px;
-	background-color: #FFF;
+	background-color: var(--document-back-color);
 	position: relative;
 	left: 0;
 	top: 0;
@@ -139,6 +343,7 @@ body > header.sticky {
 body > header > h1 {
 	font-size: 1.2rem;
 	border: 0;
+	padding-left: 1rem;
 }
 
 body > header.in > h1::before {
@@ -147,6 +352,15 @@ body > header.in > h1::before {
   	margin-right: 3px;
   	float: left;
 	font-size: 2rem;
+}
+
+body > header > h1.main::before {
+	font-family: var(--icon-font);
+  	content: '\e666';
+  	margin-right: 10px;
+  	float: left;
+	font-size: 2rem;
+	margin-top: -0.2rem;
 }
 
 
@@ -171,7 +385,7 @@ body > header > ul+ul {
 	right: 0;
 	bottom: -46px;
 	padding: 0;
-	background-color: #FFF;
+	background-color: var(--document-back-color);
 	font-size: 14px;
 }
 
@@ -189,30 +403,39 @@ form {
 }
 
 form > div {
-	padding: 0.3rem 1rem;
+	padding: 0.3rem 0rem;
 }
 
 div > form > div {
 	padding: 0.3rem 0;
 }
 
-input, textarea, button, select {
-	border: 1px solid #BBB;
+input, textarea, select {
+	border: 1px solid var(--control-border-color);
 	border-radius: 3px;
 	outline: none;
 	resize: none;
 	padding: 7px;	
 	margin: 0;
+	background-color: var(--control-back-color);
 }
 
-input[type=text]:read-only, textarea:read-only {
-	cursor: not-allowed;
-	background-color: #FFF;
+input[type=button], input[type=submit], button {
+	border: 1px solid var(--btn-border-color);
+	border-radius: 3px;
 }
 
-input[type=text]:disabled, textarea:disabled {
+input[type=text], input[type=number], input[type=email], input[type=datetime], textarea, select, option, optgroup {
+	color: var(--form-text-color);
+}
+option {
+	background-color: var(--control-back-color);
+}
+
+input[type=text]:read-only, textarea:read-only, input[type=text]:disabled, textarea:disabled {
 	cursor: not-allowed;
-	background-color: #EEE;
+	background-color: var(--disabled-color);
+	color: var(--disabled-text-color);
 }
 
 input[type=text], input[type=password], textarea, button, select {
@@ -475,7 +698,9 @@ button::before {
 }
 
 
-table {
+body > table,
+main > table,
+div > table {
 	border-collapse: collapse;	
 	margin: 1rem;
 	box-sizing: border-box;
@@ -485,14 +710,21 @@ table {
 table.content {
 	width: auto;
 }
-
-div > table {
-	margin: 0;
+table.content th, table.content td {
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
+
+
+/* div > table {
+	margin: 0;
+} */
 
 table th, table td {
 	border: 1px solid var(--border-color);
 	padding: 7px;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	font-weight: normal;
 }
 
@@ -506,8 +738,10 @@ table.vertical th {
 
 table.vertical td {
 	width: calc(100% - 182px);
-	padding-left: 10px;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
+
 
 table.content td, table.content th {
 	width: auto;
@@ -547,10 +781,11 @@ hr {
 
 .message {
 	border: 1px solid var(--border-color);
-	background-color: #EFEFEF;
+	/* background-color: #EFEFEF; */
+	background-color: var(--back-color);
 	margin: 1rem;
 	width: auto;
-	padding-top: 10px;
+	padding-top: 10px !important;
 	padding-bottom: 10px;
 	font-size: 14px;
 }
@@ -561,7 +796,7 @@ hr {
 	border-bottom: 1px solid var(--border-color);
 	padding-bottom: 5px;
 	margin-bottom: 10px;
-	margin-top: 7px;
+	margin-top: 3px;
 }
 
 .message.short {
@@ -608,6 +843,10 @@ hr {
 	background-color: rgb(100, 149, 237, .3);
 }
 
+label {
+	color: var(--form-text-color);
+}
+
 label + label {
 	margin-left: 7px;
 }
@@ -625,7 +864,7 @@ label input[type=checkbox], label input[type=radio] {
 }
 
 .group label {
-	border: 1px solid #BBB;
+	border: 1px solid var(--control-border-color);
 	border-radius: 3px;
 	outline: none;
 	resize: none;
@@ -633,7 +872,7 @@ label input[type=checkbox], label input[type=radio] {
 	margin: 0;
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 0;
-	background-color: #EFEFEF;
+	background-color: var(--back-color);
 	white-space: nowrap;
 	font-size: 14px;
 }
@@ -682,7 +921,7 @@ label input[type=checkbox], label input[type=radio] {
 div.list {
 	width: max-content;
 	margin: 1rem;
-	border: 1px solid #BBB;
+	border: 1px solid var(--control-border-color);
 	border-radius: 3px;
 	padding: 0;
 }
@@ -691,7 +930,7 @@ div.list.full {
 	width: auto;
 	display: block;
 	margin: 1rem;
-	border: 1px solid #BBB;
+	border: 1px solid var(--control-border-color);
 	border-radius: 3px;
 	padding: 0;
 }
@@ -699,7 +938,7 @@ div.list.full {
 div.list > div {
 	padding: .5rem 1rem;
 	margin: 0;
-	border-bottom: 1px solid #BBB;
+	border-bottom: 1px solid var(--control-border-color);
 }
 
 div.list > div:last-child {
@@ -709,7 +948,7 @@ div.list > div:last-child {
 pre.code {
 	font-family: consols;
 	background-color: rgba(150, 150, 150, .1);
-	border: 1px solid #BBB;
+	border: 1px solid var(--control-border-color);
 	border-radius: 3px;
 	padding: .5rem 1rem;
 	padding-bottom: .6rem;
@@ -741,7 +980,7 @@ pre.code {
 	margin-top: -500px;
 	opacity: 0;
 	width: 500px;
-	background-color: #FFF;
+	background-color: var(--document-back-color);
 	margin-right: 2rem;
 	transition: 500ms all;
 }
@@ -777,7 +1016,7 @@ pre.code {
 
 *[data-sidebar-window] {
 	position: fixed;
-	background-color: #FFF;
+	background-color: var(--document-back-color);
 	left: 0;
 	top: 0;
 	display: block;
@@ -815,4 +1054,25 @@ pre.code {
 
 *[data-sidebar-window] .sidebar-title span:last-child {
 	cursor: pointer;
+}
+
+.pagebar {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pagebar a {
+	border: 1px solid transparent;
+	display: inline-block;
+	padding: 0.3rem .5rem .2rem;
+	cursor: pointer;
+}
+.pagebar a.now {
+	border-color: var(--border-color);
+	border-radius: 3px;
+	cursor: not-allowed;
+}
+.pagebar a.now:hover {
+	color: var(--text-color);
 }

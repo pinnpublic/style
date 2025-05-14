@@ -1,16 +1,18 @@
+
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Example CSS</title>
-	<link rel="stylesheet" href="http://pinnpublic.dothome.co.kr/cdn/example-min.css">
+	<!-- <link rel="stylesheet" href="http://bit.ly/3WJ5ilK"> -->
+	<link rel="stylesheet" href="example.css">
 </head>
 <body>
 
 	<header>
-		<h1>CSS Example</h1>
+		<h1 class="main">CSS Example</h1>
 		<ul>
 			<li>menu</li>
 			<li>menu</li>
@@ -34,9 +36,12 @@
 
 	<h3>Form Controls</h3>
 	<form>
-		<div><input type="text" name="name" class="short" placeholder="이름 입력"></div>
-		<div><input type="text" name="tel" class="long" placeholder="연락처 입력"></div>
-		<div><input type="text" name="tel" class="full" placeholder="주소 입력"></div>
+		<div><input type="text" class="short" placeholder="class=short"></div>
+		<div><input type="text" placeholder="class="></div>
+		<div><input type="text" class="long" placeholder="class=long"></div>
+		<div><input type="text" class="full" placeholder="class=full"></div>
+		<div><input type="text" class="full" placeholder="읽기 전용" readonly></div>
+		<div><input type="text" class="full" placeholder="비활성화" disabled></div>
 	</form>
 
 	<h3>일반 버튼</h3>
@@ -44,6 +49,7 @@
 		<div>
 			<input type="button" class="primary" value="메인 버튼">
 			<input type="button" value="보조 버튼">
+			<button>그냥 버튼</button>
 		</div>
 	</form>
 
@@ -59,19 +65,19 @@
 	<form>
 		<div class="group">
 			<label>아이디</label>
-			<input type="text" class="short">
+			<input type="text" class="short" placeholder="class=short">
 		</div>
 		<div class="group">
 			<label>아이디</label>
-			<input type="text">
+			<input type="text" placeholder="class=">
 		</div>
 		<div class="group">
 			<label>아이디</label>
-			<input type="text" class="long">
+			<input type="text" class="long" placeholder="class=long">
 		</div>
 		<div class="group">
 			<label>아이디</label>
-			<input type="text" class="full">
+			<input type="text" class="full" placeholder="class=full">
 		</div>
 		<div class="group">
 			<label>아이디</label>
@@ -223,6 +229,23 @@
 	<pre class="code">int a = 10;
 System.out.println(a);</pre>
 
+
+	<h3>페이지바</h3>
+	<div class="pagebar">
+		<a href="#!" class="prev">&lt;&lt;</a>
+		<a href="#!" class="page">1</a>
+		<a href="#!" class="page">2</a>
+		<a href="#!" class="page">3</a>
+		<a href="#!" class="page">4</a>
+		<a href="#!" class="page now">5</a>
+		<a href="#!" class="page">6</a>
+		<a href="#!" class="page">7</a>
+		<a href="#!" class="page">8</a>
+		<a href="#!" class="page">9</a>
+		<a href="#!" class="page">10</a>
+		<a href="#!" class="next">&gt;&gt;</a>
+	</div>
+
 	
 	<h3>모달</h3>
 
@@ -271,6 +294,7 @@ System.out.println(a);</pre>
 	</div>
 
 
-	<script src="http://pinnpublic.dothome.co.kr/cdn/example-min.js"></script>
+	<!-- <script src="https://bit.ly/4cMuheh"></script> -->
+	<script src="example.js"></script>
 </body>
 </html>

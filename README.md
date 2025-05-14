@@ -85,6 +85,20 @@ https://fonts.google.com/icons
 ```
 
 
+### Theme
+
+테마를 지정한다.
+
+- `<html>`: 기본 테마(white)
+- `<html class="theme-white">`: 화이트 테마(기본 테마)
+- `<html class="theme-black">`: 다크 테마
+- `<html class="theme-red">`: 레드 테마
+- `<html class="theme-yellow">`: 옐로우 테마
+- `<html class="theme-blue">`: 블루 테마
+- `<html class="theme-green">`: 그린 테마
+- `<html class="theme-purple">`: 퍼플 테마
+
+
 ### Body
 
 문서 너비를 조절한다.
@@ -92,9 +106,13 @@ https://fonts.google.com/icons
 - `<body class="XXX">` : 800px
 - `<body class="XXX" class="narrow">` : 500px
 - `<body class="XXX" class="wide">` : 1200px
+- `<body class="XXX" class="wOOO">` : 300px ~ 1800px
+- `<body class="XXX" class="w300">` : 300px
+- `<body class="XXX" class="w1800">` : 1800px
 
 ``` html
 <body class="narrow">
+<body class="w800">
 ```
 
 
@@ -365,6 +383,27 @@ https://fonts.google.com/icons
     int a = 10;
     System.out.println(a);
 </pre>
+```
+
+### Pagebar
+
+페이지 바를 만든다.
+
+``` html
+<div class="pagebar">
+    <a href="#!" class="prev">&lt;&lt;</a>
+    <a href="#!" class="page">1</a>
+    <a href="#!" class="page">2</a>
+    <a href="#!" class="page">3</a>
+    <a href="#!" class="page">4</a>
+    <a href="#!" class="page now">5</a>
+    <a href="#!" class="page">6</a>
+    <a href="#!" class="page">7</a>
+    <a href="#!" class="page">8</a>
+    <a href="#!" class="page">9</a>
+    <a href="#!" class="page">10</a>
+    <a href="#!" class="next">&gt;&gt;</a>
+</div>
 ```
 
 
