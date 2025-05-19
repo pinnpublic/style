@@ -1040,10 +1040,14 @@ button::before {
 
 body > table,
 main > table,
-div > table,
-form > table {
+div > table {
 	border-collapse: collapse;	
 	margin: 1rem;
+	box-sizing: border-box;
+	width: calc(100% - 32px);
+}
+form > table {
+	border-collapse: collapse;	
 	box-sizing: border-box;
 	width: calc(100% - 32px);
 }
