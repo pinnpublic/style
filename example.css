@@ -1046,6 +1046,13 @@ div > table {
 	box-sizing: border-box;
 	width: calc(100%);
 }
+form > table {
+	border-collapse: collapse;	
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	box-sizing: border-box;
+	width: calc(100% - 32px);
+}
 
 table.content {
 	width: auto;
