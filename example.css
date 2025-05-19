@@ -1044,7 +1044,7 @@ div > table {
 	border-collapse: collapse;	
 	margin: 1rem;
 	box-sizing: border-box;
-	width: calc(100% - 32px);
+	width: calc(100%);
 }
 
 table.content {
