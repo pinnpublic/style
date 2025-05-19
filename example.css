@@ -700,7 +700,8 @@ button::before {
 
 body > table,
 main > table,
-div > table {
+div > table,
+form > table {
 	border-collapse: collapse;	
 	margin: 1rem;
 	box-sizing: border-box;
