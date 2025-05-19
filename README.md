@@ -200,6 +200,8 @@ https://fonts.google.com/icons
 <input type="text" name="tel" class="full" placeholder="주소 입력">
 ```
 
+### 버튼
+
 메인 버튼에 색상을 지정할 수 있다. 
 
 - `<input type="button">`
@@ -210,7 +212,7 @@ https://fonts.google.com/icons
 <input type="button" class="primary">
 ```
 
-이미지 버튼
+### 이미지 버튼
 
 - `<button>버튼</button>`
 - `<button class="in">회원가입</button>`
@@ -224,7 +226,45 @@ https://fonts.google.com/icons
 - `<button class="edit">수정하기</button>`
 - `<button class="reply">답변하기</button>`
 - `<button class="comment">댓글달기</button>`
-
+- `<button class="home">홈</button>`
+- `<button class="search">검색</button>`
+- `<button class="menu">메뉴</button>`
+- `<button class="close">닫기</button>`
+- `<button class="settings">설정</button>`
+- `<button class="favorite">즐겨찾기</button>`
+- `<button class="star">스타</button>`
+- `<button class="more">더보기</button>`
+- `<button class="checkbox">체크박스</button>`
+- `<button class="dialog">모달</button>`
+- `<button class="calendar">달력</button>`
+- `<button class="timer">타이머</button>`
+- `<button class="map">지도</button>`
+- `<button class="marker">마커</button>`
+- `<button class="bookmark">북마크</button>`
+- `<button class="tag">태그</button>`
+- `<button class="image">이미지</button>`
+- `<button class="folder">폴더</button>`
+- `<button class="desc">파일</button>`
+- `<button class="attach">첨부파일</button>`
+- `<button class="copy">복사</button>`
+- `<button class="paste">붙여넣기</button>`
+- `<button class="click">클릭</button>`
+- `<button class="keyboard">키보드</button>`
+- `<button class="refresh">새로고침</button>`
+- `<button class="pause">일시정지</button>`
+- `<button class="secret">보안</button>`
+- `<button class="person">유저</button>`
+- `<button class="group">그룹</button>`
+- `<button class="lock">잠금</button>`
+- `<button class="language">언어</button>`
+- `<button class="color">색상</button>`
+- `<button class="left-panel">왼쪽 패널</button>`
+- `<button class="right-panel">오른쪽 패널</button>`
+- `<button class="json">JSON</button>`
+- `<button class="markdown">마크다운</button>`
+- `<button class="html">HTML</button>`
+- `<button class="css">CSS</button>`
+- `<button class="javascript">JavaScript</button>`
 
 
 ### Label Control
