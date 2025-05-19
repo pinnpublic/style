@@ -1044,14 +1044,14 @@ div > table {
 	border-collapse: collapse;	
 	margin: 1rem;
 	box-sizing: border-box;
-	width: calc(100%);
+	width: calc(100% - 32px);
 }
 form > table {
 	border-collapse: collapse;	
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	box-sizing: border-box;
-	width: calc(100% - 32px);
+	width: calc(100%);
 }
 
 table.content {
