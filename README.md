@@ -168,12 +168,12 @@ https://fonts.google.com/icons
 
 문서 너비를 조절한다.
 
-- `<body class="XXX">` : 800px
-- `<body class="XXX" class="narrow">` : 500px
-- `<body class="XXX" class="wide">` : 1200px
-- `<body class="XXX" class="wOOO">` : 300px ~ 1800px
-- `<body class="XXX" class="w300">` : 300px
-- `<body class="XXX" class="w1800">` : 1800px
+- `<body>` : 800px
+- `<body class="narrow">` : 500px
+- `<body class="wide">` : 1200px
+- `<body class="w너비">` : 300px ~ 1800px
+- `<body class="w300">` : 300px
+- `<body class="w1800">` : 1800px
 
 ``` html
 <body class="narrow">
@@ -245,7 +245,7 @@ https://fonts.google.com/icons
 - `<h1 class="page">Title</h1>` : 일반 페이지
 
 ``` html
-<h1 class="main">토이 프로젝트 <small>JSP Model 2</small></h1>
+<h1 class="main">Spring Boot <small>Security</small></h1>
 ```
 
 ### Form Controls
@@ -370,7 +370,6 @@ https://fonts.google.com/icons
 - 테두리(1px)
 - 너비(100%) : `<table>`
 - 너비(auto) : `<table class="content">`
-- header : background color(#EFEFEF)
 
 ``` html
 <table>
