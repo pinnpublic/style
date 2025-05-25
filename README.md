@@ -99,6 +99,64 @@ https://fonts.google.com/icons
 - `<html class="theme-purple">`: 퍼플 테마
 
 
+
+### Font
+
+글꼴을 지정한다.
+
+- `<link rel="stylesheet" href="https://bit.ly/43wYlI6">`: 넥슨 배찌체
+- `<link rel="stylesheet" href="https://bit.ly/4kAXDQZ">`: 빙그레체
+- `<link rel="stylesheet" href="https://bit.ly/4kDRN1l">`: 빙그레체 II
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+- `<link rel="stylesheet" href="">`: 
+
+
+
 ### Body
 
 문서 너비를 조절한다.
