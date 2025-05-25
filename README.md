@@ -68,8 +68,8 @@ https://fonts.google.com/icons
 
 - 구글 아이콘 기본 적용(https://fonts.google.com/icons)
 - 웹 폰트 기본 적용(GmarketSansMedium)
-- 문서는 특정 너비(narrow(500px), default(800px), wide(1200px))의 중앙 정렬 한다.
-- 반응형 지원 X
+- 문서는 다양한 너비를 지원하며 중앙 정렬함
+- 반응형 지원 안함
 
 ### Document Basic Structure
 
@@ -82,8 +82,12 @@ https://fonts.google.com/icons
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="http://bit.ly/3WJ5ilK">
+    <style>
+
+    </style>
 </head>
 <body>
+    <!--  -->
     <h1>Main Title <small>Sub Title</small></h1>
 
     <div>Contents</div>
