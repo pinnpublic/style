@@ -14,6 +14,10 @@ This is a class library repository.
 
 [https://bit.ly/4kiPWzi](https://bit.ly/4kiPWzi)
 
+- 테마 클래스 자동완성 지원
+- 폰트 CSS URL 자동완성 지원
+- 버튼 클래스 자동완성 지원
+
 <br>
 
 ## CDN
