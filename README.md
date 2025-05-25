@@ -6,13 +6,15 @@ This is a class library repository.
 
 ## Demo
 
-[https://bit.ly/44PuoFv](https://bit.ly/44PuoFv)
+[데모페이지 보러가기](http://pinnpublic.dothome.co.kr/cdn/template.html)
 
 <br>
 
 ## Visual Studio Code Extension
 
-[https://bit.ly/4kiPWzi](https://bit.ly/4kiPWzi)
+Visual Studio Code > Extensions > "수업용 CSS Framework" 검색
+
+[확장프로그램 상세페이지](https://marketplace.visualstudio.com/items?itemName=pinnpublic.classroom-css-framework)
 
 - 테마 클래스 자동완성 지원
 - 폰트 CSS URL 자동완성 지원
