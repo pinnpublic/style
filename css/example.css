@@ -398,6 +398,10 @@ body > header > ul > li.divider::before {
 	padding: 0;
 }
 
+header + * {
+	margin-top: 1rem;
+}
+
 
 form {
 	display: block;
