@@ -104,57 +104,48 @@ https://fonts.google.com/icons
 
 글꼴을 지정한다.
 
+- `<link rel="stylesheet" href="https://bit.ly/3WJ5ilK">`: G마켓 산스
 - `<link rel="stylesheet" href="https://bit.ly/43wYlI6">`: 넥슨 배찌체
 - `<link rel="stylesheet" href="https://bit.ly/4kAXDQZ">`: 빙그레체
 - `<link rel="stylesheet" href="https://bit.ly/4kDRN1l">`: 빙그레체 II
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-- `<link rel="stylesheet" href="">`: 
-
+- `<link rel="stylesheet" href="https://bit.ly/3H8UpWu">`: 꾸불림체
+- `<link rel="stylesheet" href="https://bit.ly/4kkTdOn">`: 카페24 클래식타입
+- `<link rel="stylesheet" href="https://bit.ly/3HaJfAl">`: 쿠키런
+- `<link rel="stylesheet" href="https://bit.ly/4mwYvrA">`: 온글잎 콘콘체
+- `<link rel="stylesheet" href="https://bit.ly/3FuDhK7">`: 독립체
+- `<link rel="stylesheet" href="https://bit.ly/4kfEkNi">`: 도스고딕
+- `<link rel="stylesheet" href="https://bit.ly/4muHqys">`: EBS훈민정음
+- `<link rel="stylesheet" href="https://bit.ly/43wGW2b">`: 펀플로생존자
+- `<link rel="stylesheet" href="https://bit.ly/4dxr6Jl">`: 강원교육모두체
+- `<link rel="stylesheet" href="https://bit.ly/4jmDmxs">`: 강원교육새음체
+- `<link rel="stylesheet" href="https://bit.ly/3FmtfuM">`: 가나초콜릿체
+- `<link rel="stylesheet" href="https://bit.ly/4jmDsoO">`: 이사만루
+- `<link rel="stylesheet" href="https://bit.ly/3HohxjD">`: 고운돋움
+- `<link rel="stylesheet" href="https://bit.ly/4kbcQZd">`: 고양체
+- `<link rel="stylesheet" href="https://bit.ly/3Z0kFII">`: 경기천년제목
+- `<link rel="stylesheet" href="https://bit.ly/3Fhauc5">`: 학교안심 칠판지우개
+- `<link rel="stylesheet" href="https://bit.ly/43GLNz3">`: 학교안심 둥근미소
+- `<link rel="stylesheet" href="https://bit.ly/3FaGgYi">`: HS산토끼체2.0
+- `<link rel="stylesheet" href="https://bit.ly/4dHaJKk">`: IM혜민체
+- `<link rel="stylesheet" href="https://bit.ly/43IVkpb">`: KCC무럭무럭체
+- `<link rel="stylesheet" href="https://bit.ly/3F8nkcJ">`: 경북대진리체
+- `<link rel="stylesheet" href="https://bit.ly/43xiVrW">`: 교보손글씨
+- `<link rel="stylesheet" href="https://bit.ly/44N5MNA">`: 롯데리아 촵땡겨체
+- `<link rel="stylesheet" href="https://bit.ly/43wZiQG">`: 마비옛체
+- `<link rel="stylesheet" href="https://bit.ly/43pGAdz">`: 망고보드 또박체
+- `<link rel="stylesheet" href="https://bit.ly/3Skp7yg">`: 넥슨 메이플스토리
+- `<link rel="stylesheet" href="https://bit.ly/3Shzraf">`: 마포배낭여행
+- `<link rel="stylesheet" href="https://bit.ly/4kDT3BB">`: 마포홍대프리덤
+- `<link rel="stylesheet" href="https://bit.ly/3HnQUeI">`: 나눔스퀘어라운드
+- `<link rel="stylesheet" href="https://bit.ly/3H9Pnc6">`: 오뮤 다예쁨체
+- `<link rel="stylesheet" href="https://bit.ly/4jl2yV0">`: 원스토어 모바일POP체
+- `<link rel="stylesheet" href="https://bit.ly/4kB5TR4">`: 프리텐다드
+- `<link rel="stylesheet" href="https://bit.ly/4kfFwQM">`: 정묵바위체
+- `<link rel="stylesheet" href="https://bit.ly/3SOYbqu">`: 신라문화체
+- `<link rel="stylesheet" href="https://bit.ly/4kuSJEV">`: 어비 세현체
+- `<link rel="stylesheet" href="https://bit.ly/4dyC8xY">`: 여기어때 잘난체
+- `<link rel="stylesheet" href="https://bit.ly/4dy3156">`: Y최애체
+- `<link rel="stylesheet" href="https://bit.ly/45naIJ9">`: 윤초록우산어린이 만세
 
 
 ### Body
