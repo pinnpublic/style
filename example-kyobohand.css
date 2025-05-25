@@ -1,0 +1,8 @@
+@import url('./example-min.css');
+
+@font-face {
+    font-family: 'mainfont';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

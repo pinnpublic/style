@@ -1,0 +1,9 @@
+
+@import url('./example-min.css');
+
+@font-face {
+    font-family: 'mainfont';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

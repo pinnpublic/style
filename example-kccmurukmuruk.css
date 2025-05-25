@@ -1,0 +1,8 @@
+@import url('./example-min.css');
+
+@font-face {
+    font-family: 'mainfont';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCMurukmuruk.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
