@@ -176,6 +176,7 @@ https://fonts.google.com/icons
 - `<body class="w1800">` : 1800px
 
 ``` html
+<body>
 <body class="narrow">
 <body class="w800">
 ```
