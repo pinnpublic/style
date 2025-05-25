@@ -6,7 +6,11 @@ This is a class library repository.
 
 ## Demo
 
-[https://bit.ly/3WPwC1S](https://bit.ly/3WPwC1S)
+[https://bit.ly/44PuoFv](https://bit.ly/44PuoFv)
+
+## Visual Studio Code Extension
+
+[https://bit.ly/4kiPWzi](https://bit.ly/4kiPWzi)
 
 <br>
 
