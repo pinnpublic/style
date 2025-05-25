@@ -1,4 +1,4 @@
-# Example CSS Framework
+# 수업용 CSS Framework
 
 This is a class library repository.
 
