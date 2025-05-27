@@ -32,13 +32,18 @@
 	--control-back-color: #FFF;
 }
 
-/* 화이트 테마 (기본 테마) */
-:root.theme-white {
+ /* {
 	color: #ff6347;
 	color: #ffd700;
 	color: #1e90ff;
 	color: #adff2f;
 	color: #dda0dd
+} */
+
+
+/* 화이트 테마 (기본 테마) */
+:root.theme-white {
+	
 }
 
 /* 다크 테마 */
@@ -1105,6 +1110,10 @@ table td.left {
 	text-align: left;
 	padding-left: 1rem;
 }
+table td.right {
+	text-align: right;
+	padding-right: 1rem;
+}
 
 body.narrow table.vertical th {
 	width: 100px;
@@ -1200,6 +1209,18 @@ hr {
 	border-radius: 50%;
 	padding: 2px 5px;
 	background-color: rgb(100, 149, 237, .3);
+}
+
+.badge.green {
+	border-radius: 50%;
+	padding: 2px 5px;
+	background-color: rgba(85, 218, 145, 0.3);
+}
+
+.badge.orange {
+	border-radius: 50%;
+	padding: 2px 5px;
+	background-color: rgba(236, 195, 59, 0.3);
 }
 
 label {

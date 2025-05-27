@@ -7,9 +7,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Example CSS</title>
 	<!-- <link rel="stylesheet" href="http://bit.ly/3WJ5ilK"> -->
-	 <link rel="stylesheet" href="css/example.css">
+	<link rel="stylesheet" href="css/example.css">
 	<style>
-		
+		body > header {
+			position: relative;
+			left: 0;
+			top: 0;
+		}
+		#font {
+			position: absolute;
+			right: -135px;
+			top: 90px;
+		}
+		#font > div {
+			font-size: .74rem;
+			border-radius: 3px;
+			margin-bottom: 0px;
+			padding: 3px;
+			cursor: pointer;
+		}
+		#font > div:hover {
+			background-color: #CCC;
+		}
+		#font > div:first-child {
+			 background-color: #CCC;
+		}
 	</style>
 </head>
 <body>
@@ -24,6 +46,50 @@
 			<li><a hrerf="">menu</a></li>
 			<li><a hrerf="">menu</a></li>
 		</ul>
+		<div id="font">
+			<div data-filename=""">G마켓 산스</div>
+			<div data-filename="example-bazzi.css">넥슨 배찌체</div>
+			<div data-filename="example-binggrae.css">빙그레체</div>
+			<div data-filename="example-binggraeb.css">빙그레체 II</div>
+			<div data-filename="example-bmkkubulimttf.css">꾸불림체</div>
+			<div data-filename="example-cafe24classictype.css">카페24 클래식타입</div>
+			<div data-filename="example-cookierun.css">쿠키런</div>
+			<div data-filename="example-corncorn.css">온글잎 콘콘체</div>
+			<div data-filename="example-dokrip.css">독립체</div>
+			<div data-filename="example-dosgothic.css">도스고딕</div>
+			<div data-filename="example-ebshunminjeongeuma.css">EBS훈민정음</div>
+			<div data-filename="example-funflowsurvivorkr.css">펀플로생존자</div>
+			<div data-filename="example-gangwonedu.css">강원교육모두체</div>
+			<div data-filename="example-gangwonedusaeeum.css">강원교육새음체</div>
+			<div data-filename="example-ghanachoco.css">가나초콜릿체</div>
+			<div data-filename="example-gonggothicmedium.css">이사만루</div>
+			<div data-filename="example-gowundodum.css">고운돋움</div>
+			<div data-filename="example-goyang.css">고양체</div>
+			<div data-filename="example-gyeonggi.css">경기천년제목</div>
+			<div data-filename="example-hakgyoansimchilpanjiugaettf.css">학교안심 칠판지우개</div>
+			<div data-filename="example-hakgyoansimdunggeunmisottf.css">학교안심 둥근미소</div>
+			<div data-filename="example-hssantokki20.css">HS산토끼체2.0</div>
+			<div data-filename="example-im.css">IM혜민체</div>
+			<div data-filename="example-kccmurukmuruk.css">KCC무럭무럭체</div>
+			<div data-filename="example-knutruthttf.css">경북대진리체</div>
+			<div data-filename="example-kyobohand.css">교보손글씨</div>
+			<div data-filename="example-lotteriachab.css">롯데리아 촵땡겨체</div>
+			<div data-filename="example-mabinogiclassicr.css">마비옛체</div>
+			<div data-filename="example-mangoddobak.css">망고보드 또박체</div>
+			<div data-filename="example-maplestoryotfbold.css">넥슨 메이플스토리</div>
+			<div data-filename="example-mapobackpacking.css">마포배낭여행</div>
+			<div data-filename="example-mapohongdaefreedom.css">마포홍대프리덤</div>
+			<div data-filename="example-nanumsquareround.css">나눔스퀘어라운드</div>
+			<div data-filename="example-omyu.css">오뮤 다예쁨체</div>
+			<div data-filename="example-one.css">원스토어 모바일POP체</div>
+			<div data-filename="example-pretendard.css">프리텐다드</div>
+			<div data-filename="example-sangsangrock.css">정묵바위체</div>
+			<div data-filename="example-shilla.css">신라문화체</div>
+			<div data-filename="example-uhbeese.css">어비 세현체</div>
+			<div data-filename="example-yg.css">여기어때 잘난체</div>
+			<div data-filename="example-yonepickttf.css">Y최애체</div>
+			<div data-filename="example-yoonchildfundkoreamansih.css">윤초록우산어린이 만세</div>
+		</div>
 	</header>
 
 	<h1 class="main">H1 Title <small>sub title</small></h1>
@@ -302,16 +368,23 @@ System.out.println(a);</pre>
 
 	<script>
 
-		document.querySelectorAll("#theme > div").forEach((item) => {
+		document.querySelectorAll("#font > div").forEach((item) => {
 			item.addEventListener("click", () => {
-				document.querySelectorAll("#theme > div").forEach((item) => {
-					item.style.backgroundColor = "transparent";
-				});
-				item.style.backgroundColor = "#CCC";
-
-				document.querySelector("html").className = "theme-" + item.textContent.toLowerCase();
+				loadCSS(event.target.dataset['filename']);
 			});
 		});
+
+		function loadCSS(filename) {
+
+			document.getElementsByTagName('head')[0].removeChild(document.querySelector('head link'));
+
+			var link = document.createElement('link');
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = filename;
+			document.getElementsByTagName('head')[0].appendChild(link);
+		}
+
 
 	</script>
 </body>

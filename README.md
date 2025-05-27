@@ -6,7 +6,9 @@ This is a class library repository.
 
 ## Demo
 
-[데모페이지 보러가기](http://pinnpublic.dothome.co.kr/cdn/template.html)
+- [데모페이지(기본)](http://pinnpublic.dothome.co.kr/cdn/template.html)
+- [데모페이지(테마)](http://pinnpublic.dothome.co.kr/cdn/template-theme.html)
+- [데모페이지(글꼴)](http://pinnpublic.dothome.co.kr/cdn/template-font.html)
 
 <br>
 
@@ -227,13 +229,13 @@ https://fonts.google.com/icons
 
 - 1단계 제목
     - `<h1>Title</h1>`
-    - `<h1>Title <sub>Sub Title</sub></h1>`
+    - `<h1>Title <small>Sub Title</small></h1>`
 - 2단계 제목
     - `<h2>Title</h2>`
-    - `<h2>Title <sub>Sub Title</sub></h2>`
+    - `<h2>Title <small>Sub Title</small></h2>`
 - 3단계 제목
     - `<h3>Title</h3>`
-    - `<h3>Title <sub>Sub Title</sub></h3>`
+    - `<h3>Title <small>Sub Title</small></h3>`
 
 ``` html
 <h1>게시판 <small>목록보기</small></h1>
@@ -425,9 +427,9 @@ https://fonts.google.com/icons
 
 너비를 지정한다.
 
-- `<div class="message">Content</div>`
-- `<div class="message short">Content</div>`
-- `<div class="message long">Content</div>`
+- `<div class="message">Content</div>`: 100%
+- `<div class="message short">Content</div>`: 250px
+- `<div class="message long">Content</div>`: 500px
 
 
 ### Badge
@@ -438,16 +440,18 @@ https://fonts.google.com/icons
 <span class="badge right red">5</span>
 ```
 
-방향 지정
+방향(좌/우) 지정
 
-- `<span class="badge" class="left">5</span>`
-- `<span class="badge" class="right">5</span>`
+- `<span class="badge left">5</span>`
+- `<span class="badge right">5</span>`
 
 색상 지정
 
-- `<span class="badge" class="red">5</span>`
-- `<span class="badge" class="yellow">5</span>`
-- `<span class="badge" class="blue">5</span>`
+- `<span class="badge red">5</span>`
+- `<span class="badge yellow">5</span>`
+- `<span class="badge blue">5</span>`
+- `<span class="badge green">5</span>`
+- `<span class="badge orange">5</span>`
 
 ### Seperate
 
@@ -495,6 +499,8 @@ https://fonts.google.com/icons
 페이지 바를 만든다.
 
 - `<a href="#!" class="page now">5</a>`: 현재 페이지
+- `<a href="#!" class="prev">&lt;&lt;</a>`: 이전(블럭) 페이지
+- `<a href="#!" class="next">&gt;&gt;</a>`: 다음(블럭) 페이지
 
 ``` html
 <div class="pagebar">
