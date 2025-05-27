@@ -1,8 +1,12 @@
-@import url('./example-min.css');
+@import url('../css/example-min.css');
 
 @font-face {
     font-family: 'mainfont';
     src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSe_hyun.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+h1.main::before, h1.sub::before, h1.page::before {
+    margin-top: 5px;
 }
