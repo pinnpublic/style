@@ -178,9 +178,9 @@ https://fonts.google.com/icons
 - `<body class="w1800">` : 1800px
 
 ``` html
-<body>
-<body class="narrow">
-<body class="w800">
+<body> <!-- 기본 너비 -->
+<body class="narrow"> <!-- 500px -->
+<body class="w800"> <!-- 800px -->
 ```
 
 
@@ -281,6 +281,8 @@ https://fonts.google.com/icons
 ```
 
 ### 이미지 버튼
+
+`<button></button>` 태그에 이미지를 지정할 수 있다.
 
 - `<button>버튼</button>`
 - `<button class="in">회원가입</button>`
@@ -413,6 +415,11 @@ https://fonts.google.com/icons
 </table>
 ```
 
+- 셀 수평 정렬
+    - `<td>`: 중앙 정렬
+    - `<td class="left">`: 좌측 정렬
+    - `<td class="right">`: 우측 정렬
+
 
 ### Message
 
@@ -423,7 +430,6 @@ https://fonts.google.com/icons
     Content
 </div>
 ```
-
 
 너비를 지정한다.
 
