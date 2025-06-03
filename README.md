@@ -14,7 +14,7 @@ This is a class library repository.
 
 ## Visual Studio Code Extension
 
-Visual Studio Code > Extensions > `수업용 CSS Framework` 검색
+Visual Studio Code > Extensions > `수업용 CSS Framework` 검색 > 설치
 
 [확장프로그램 상세페이지](https://marketplace.visualstudio.com/items?itemName=pinnpublic.classroom-css-framework)
 
