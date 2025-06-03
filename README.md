@@ -27,11 +27,13 @@ Visual Studio Code > Extensions > `수업용 CSS Framework` 검색
 ## CDN
 
 Copy the following code and add it to the &lt;head&gt; tag of your HTML document.
+
 ```html
-<link rel="stylesheet" href="http://bit.ly/3WJ5ilK">
+<link rel="stylesheet" href="http://bit.ly/3WJ5ilK" />
 ```
 
 Copy the following code and add it before the &lt;/head&gt; tag in the HTML document.
+
 ```html
 <script src="https://bit.ly/4cMuheh"></script>
 ```
@@ -49,7 +51,7 @@ Copy the following code and add it before the &lt;/head&gt; tag in the HTML docu
 ```
 -->
 
-<!-- 
+<!--
 full version
 &lt;link rel="stylesheet" href="https://me2.do/xmPHeA6J"&gt;
 
@@ -75,33 +77,28 @@ https://fonts.google.com/icons
 
 ### Document Basic Structure
 
-``` html
+```html
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Title</title>
-    <link rel="stylesheet" href="http://bit.ly/3WJ5ilK">
-    <style>
-
-    </style>
-</head>
-<body>
+    <link rel="stylesheet" href="http://bit.ly/3WJ5ilK" />
+    <style></style>
+  </head>
+  <body>
     <!--  -->
     <h1>Main Title <small>Sub Title</small></h1>
 
     <div>Contents</div>
 
     <script src="https://bit.ly/4cMuheh"></script>
-    <script>
-
-    </script>
-</body>
+    <script></script>
+  </body>
 </html>
 ```
-
 
 ### Theme
 
@@ -115,8 +112,6 @@ https://fonts.google.com/icons
 - `<html class="theme-blue">`: 블루 테마
 - `<html class="theme-green">`: 그린 테마
 - `<html class="theme-purple">`: 퍼플 테마
-
-
 
 ### Font
 
@@ -165,7 +160,6 @@ https://fonts.google.com/icons
 - `<link rel="stylesheet" href="https://bit.ly/4dy3156">`: Y최애체
 - `<link rel="stylesheet" href="https://bit.ly/45naIJ9">`: 윤초록우산어린이 만세
 
-
 ### Body
 
 문서 너비를 조절한다.
@@ -173,73 +167,80 @@ https://fonts.google.com/icons
 - `<body>` : 800px
 - `<body class="narrow">` : 500px
 - `<body class="wide">` : 1200px
-- `<body class="w너비">` : 300px ~ 1800px
+- `<body class="w너비">` : 300px ~ 2100px
 - `<body class="w300">` : 300px
 - `<body class="w1800">` : 1800px
 
-``` html
-<body> <!-- 기본 너비 -->
-<body class="narrow"> <!-- 500px -->
-<body class="w800"> <!-- 800px -->
+```html
+<body>
+  <!-- 기본 너비 -->
+  <body class="narrow">
+    <!-- 500px -->
+    <body class="w800">
+      <!-- 800px -->
+    </body>
+  </body>
+</body>
 ```
 
-
-### Header 
+### Header
 
 헤더를 표시한다.
 
 - `<header class="in">` : 아이콘(로그인 표시)
 - `<header class="sticky">` : 화면 고정
 
-``` html
+```html
 <header>
-    <h1>Title</h1>
-    <ul> <!-- 메인 메뉴 -->
-        <li><a href="">menu</a></li>
-        <li><a href="">menu</a></li>
-        <li><a href="">menu</a></li>
-        <li>menu</li>
-        <li>menu</li>
-    </ul>
+  <h1>Title</h1>
+  <ul>
+    <!-- 메인 메뉴 -->
+    <li><a href="">menu</a></li>
+    <li><a href="">menu</a></li>
+    <li><a href="">menu</a></li>
+    <li>menu</li>
+    <li>menu</li>
+  </ul>
 </header>
 ```
 
-``` html
+```html
 <header>
-    <h1>Title</h1>
-    <ul> <!-- 메인 메뉴 -->
-        <li><a href="">menu</a></li>
-        <li><a href="">menu</a></li>
-        <li><a href="">menu</a></li>
-        <li>menu</li>
-        <li>menu</li>
-    </ul>
-    <ul> <!-- 서브 메뉴 -->
-        <li><a href="">sub</a></li>
-        <li><a href="">sub</a></li>
-        <li>sub</li>
-    </ul>
+  <h1>Title</h1>
+  <ul>
+    <!-- 메인 메뉴 -->
+    <li><a href="">menu</a></li>
+    <li><a href="">menu</a></li>
+    <li><a href="">menu</a></li>
+    <li>menu</li>
+    <li>menu</li>
+  </ul>
+  <ul>
+    <!-- 서브 메뉴 -->
+    <li><a href="">sub</a></li>
+    <li><a href="">sub</a></li>
+    <li>sub</li>
+  </ul>
 </header>
 ```
-
 
 ### Heading
 
 제목을 표시한다.
 
 - 1단계 제목
-    - `<h1>Title</h1>`
-    - `<h1>Title <small>Sub Title</small></h1>`
+  - `<h1>Title</h1>`
+  - `<h1>Title <small>Sub Title</small></h1>`
 - 2단계 제목
-    - `<h2>Title</h2>`
-    - `<h2>Title <small>Sub Title</small></h2>`
+  - `<h2>Title</h2>`
+  - `<h2>Title <small>Sub Title</small></h2>`
 - 3단계 제목
-    - `<h3>Title</h3>`
-    - `<h3>Title <small>Sub Title</small></h3>`
+  - `<h3>Title</h3>`
+  - `<h3>Title <small>Sub Title</small></h3>`
 
-``` html
+```html
 <h1>게시판 <small>목록보기</small></h1>
-```    
+```
 
 1단계 제목에는 아이콘을 삽입할 수 있다.
 
@@ -247,7 +248,7 @@ https://fonts.google.com/icons
 - `<h1 class="sub">Title</h1>` : 서브 페이지
 - `<h1 class="page">Title</h1>` : 일반 페이지
 
-``` html
+```html
 <h1 class="main">Spring Boot <small>Security</small></h1>
 ```
 
@@ -257,27 +258,27 @@ https://fonts.google.com/icons
 
 크기(너비)를 지정할 수 있다. 대상: `<input>`, `<select>`, `<button>`, `<textarea>`
 
--  `<input>` : width(User Agent)
--  `<input class="short">` : width(100px)
--  `<input class="long">` : width(350px)
--  `<input class="full">` : width(100%)
+- `<input>` : width(User Agent)
+- `<input class="short">` : width(100px)
+- `<input class="long">` : width(350px)
+- `<input class="full">` : width(100%)
 
-``` html
-<input type="text" name="name" class="short" placeholder="이름 입력">
-<input type="text" name="tel" class="long" placeholder="연락처 입력">
-<input type="text" name="tel" class="full" placeholder="주소 입력">
+```html
+<input type="text" name="name" class="short" placeholder="이름 입력" />
+<input type="text" name="tel" class="long" placeholder="연락처 입력" />
+<input type="text" name="tel" class="full" placeholder="주소 입력" />
 ```
 
 ### 버튼
 
-메인 버튼에 색상을 지정할 수 있다. 
+메인 버튼에 색상을 지정할 수 있다.
 
 - `<input type="button">`
 - `<input type="submit">`
 - `<button>`
 
-``` html
-<input type="button" class="primary">
+```html
+<input type="button" class="primary" />
 ```
 
 ### 이미지 버튼
@@ -336,35 +337,32 @@ https://fonts.google.com/icons
 - `<button class="css">CSS</button>`
 - `<button class="javascript">JavaScript</button>`
 
-
 ### Label Control
 
 라벨이 있는 입력 도구를 만든다.(feat.텍스트박스)
 
-``` html
+```html
 <div class="group">
-    <label>아이디</label>
-    <input type="text">
+  <label>아이디</label>
+  <input type="text" />
 </div>
 ```
-
 
 ### Button Group
 
 버튼 그룹을 만든다.(feat.input, button)
 
-``` html
+```html
 <div class="group">
-    <input type="button" value="확인">
-    <input type="button" value="취소">
+  <input type="button" value="확인" />
+  <input type="button" value="취소" />
 </div>
 
 <div class="group">
-    <button class="add">글쓰기</button>
-    <button class="list">목록보기</button>
+  <button class="add">글쓰기</button>
+  <button class="list">목록보기</button>
 </div>
 ```
-
 
 ### Table
 
@@ -376,59 +374,56 @@ https://fonts.google.com/icons
 - 너비(100%) : `<table>`
 - 너비(auto) : `<table class="content">`
 
-``` html
+```html
 <table>
-    <tr>
-        <th>column</th>
-        <th>column</th>
-        <th>column</th>
-    </tr>
-    <tr>
-        <td>cell</td>
-        <td>cell</td>
-        <td>cell</td>
-    </tr>
-    <tr>
-        <td>cell</td>
-        <td>cell</td>
-        <td>cell</td>
-    </tr>
+  <tr>
+    <th>column</th>
+    <th>column</th>
+    <th>column</th>
+  </tr>
+  <tr>
+    <td>cell</td>
+    <td>cell</td>
+    <td>cell</td>
+  </tr>
+  <tr>
+    <td>cell</td>
+    <td>cell</td>
+    <td>cell</td>
+  </tr>
 </table>
 ```
 
 - 세로 모드 : `<table class="vertical">`
 
-``` html
+```html
 <table class="vertical">
-    <tr>
-        <th>column</th>
-        <td>cell</td>
-    </tr>
-    <tr>
-        <th>column</th>
-        <td>cell</td>
-    </tr>
-    <tr>
-        <th>column</th>
-        <td>cell</td>
-    </tr>
+  <tr>
+    <th>column</th>
+    <td>cell</td>
+  </tr>
+  <tr>
+    <th>column</th>
+    <td>cell</td>
+  </tr>
+  <tr>
+    <th>column</th>
+    <td>cell</td>
+  </tr>
 </table>
 ```
 
 - 셀 수평 정렬
-    - `<td>`: 중앙 정렬
-    - `<td class="left">`: 좌측 정렬
-    - `<td class="right">`: 우측 정렬
-
+  - `<td>`: 중앙 정렬
+  - `<td class="left">`: 좌측 정렬
+  - `<td class="right">`: 우측 정렬
 
 ### Message
 
 메시지를 표시한다.
 
-``` html
-<div class="message long" title="Subject">
-    Content
-</div>
+```html
+<div class="message long" title="Subject">Content</div>
 ```
 
 너비를 지정한다.
@@ -437,12 +432,11 @@ https://fonts.google.com/icons
 - `<div class="message short">Content</div>`: 250px
 - `<div class="message long">Content</div>`: 500px
 
-
 ### Badge
 
 배지를 표시한다.
 
-``` html
+```html
 <span class="badge right red">5</span>
 ```
 
@@ -463,29 +457,28 @@ https://fonts.google.com/icons
 
 컨테이너의 두 요소를 좌우로 분리 정렬한다.
 
-``` html
+```html
 <div class="seperate">
-    <div>자바</div>
-    <div>오라클</div>
+  <div>자바</div>
+  <div>오라클</div>
 </div>
 ```
-
 
 ### List
 
 목록을 만든다.
 
-``` html
+```html
 <div class="list">
-    <div>item</div>
-    <div>item</div>
-    <div>item</div>
+  <div>item</div>
+  <div>item</div>
+  <div>item</div>
 </div>
 
 <div class="list full">
-    <div>item</div>
-    <div>item</div>
-    <div>item</div>
+  <div>item</div>
+  <div>item</div>
+  <div>item</div>
 </div>
 ```
 
@@ -493,7 +486,7 @@ https://fonts.google.com/icons
 
 코드를 삽입한다.
 
-``` html
+```html
 <pre class="code">
     int a = 10;
     System.out.println(a);
@@ -508,23 +501,22 @@ https://fonts.google.com/icons
 - `<a href="#!" class="prev">&lt;&lt;</a>`: 이전(블럭) 페이지
 - `<a href="#!" class="next">&gt;&gt;</a>`: 다음(블럭) 페이지
 
-``` html
+```html
 <div class="pagebar">
-    <a href="#!" class="prev">&lt;&lt;</a>
-    <a href="#!" class="page">1</a>
-    <a href="#!" class="page">2</a>
-    <a href="#!" class="page">3</a>
-    <a href="#!" class="page">4</a>
-    <a href="#!" class="page now">5</a>
-    <a href="#!" class="page">6</a>
-    <a href="#!" class="page">7</a>
-    <a href="#!" class="page">8</a>
-    <a href="#!" class="page">9</a>
-    <a href="#!" class="page">10</a>
-    <a href="#!" class="next">&gt;&gt;</a>
+  <a href="#!" class="prev">&lt;&lt;</a>
+  <a href="#!" class="page">1</a>
+  <a href="#!" class="page">2</a>
+  <a href="#!" class="page">3</a>
+  <a href="#!" class="page">4</a>
+  <a href="#!" class="page now">5</a>
+  <a href="#!" class="page">6</a>
+  <a href="#!" class="page">7</a>
+  <a href="#!" class="page">8</a>
+  <a href="#!" class="page">9</a>
+  <a href="#!" class="page">10</a>
+  <a href="#!" class="next">&gt;&gt;</a>
 </div>
 ```
-
 
 ### Modal
 
@@ -536,7 +528,7 @@ https://fonts.google.com/icons
 - `data-modal-ok="group"` : 확인 버튼
 - `data-modal-cancel="group"` : 취소 버튼
 
-``` html
+```html
 <div>
     <button class="modal" data-modal-button="add">글쓰기</button>
 </div>
@@ -571,18 +563,15 @@ https://fonts.google.com/icons
 - `data-sidebar-direction="right"` : 사이드바 방향(생략하면 left)
 - `data-sidebar-size="wide"` : 사이드바 사이즈(생략하면 300px, wide 500px)
 
-
-``` html
+```html
 <div>
-    <button class="sidebar" data-sidebar-button="sidebar">사이드바 열기</button>
+  <button class="sidebar" data-sidebar-button="sidebar">사이드바 열기</button>
 </div>
 
 <div data-sidebar-window="sidebar" data-sidebar-title="Lorem ipsum">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  Lorem ipsum dolor sit amet consectetur adipisicing elit.
 </div>
 ```
-
-
 
 ---
 
