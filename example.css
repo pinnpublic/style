@@ -1287,7 +1287,7 @@ label input[type=checkbox], label input[type=radio] {
 	justify-content: space-between;
 }
 
-div.list {
+div.box-list {
 	width: max-content;
 	margin: 1rem;
 	border: 1px solid var(--control-border-color);
@@ -1295,7 +1295,7 @@ div.list {
 	padding: 0;
 }
 
-div.list.full {
+div.box-list.full {
 	width: auto;
 	display: block;
 	margin: 1rem;
@@ -1304,13 +1304,13 @@ div.list.full {
 	padding: 0;
 }
 
-div.list > div {
+div.box-list > div {
 	padding: .5rem 1rem;
 	margin: 0;
 	border-bottom: 1px solid var(--control-border-color);
 }
 
-div.list > div:last-child {
+div.box-list > div:last-child {
 	border-bottom: 0;
 }
 

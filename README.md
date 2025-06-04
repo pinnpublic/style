@@ -469,13 +469,13 @@ https://fonts.google.com/icons
 목록을 만든다.
 
 ```html
-<div class="list">
+<div class="box-list">
   <div>item</div>
   <div>item</div>
   <div>item</div>
 </div>
 
-<div class="list full">
+<div class="box-list full">
   <div>item</div>
   <div>item</div>
   <div>item</div>
