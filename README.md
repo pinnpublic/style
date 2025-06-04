@@ -285,7 +285,6 @@ https://fonts.google.com/icons
 
 `<button></button>` 태그에 이미지를 지정할 수 있다.
 
-- `<button>버튼</button>`
 - `<button class="in">회원가입</button>`
 - `<button class="out">회원탈퇴</button>`
 - `<button class="login">로그인</button>`

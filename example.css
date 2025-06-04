@@ -502,18 +502,45 @@ input[type=button]:hover, input[type=submit]:hover, button:hover {
 	background-color: var(--primary-color);
 }
 
-button {
+/* button {
 	position: relative;
 	left: 0;
 	top: 0;
 	padding-left: 35px;
-}
+} */
 
 button .material-symbols-outlined {
 	position: absolute;
 	left: 10px;
 	top: 4px;
 }
+
+button.home, button.search, button.close,
+button.settings, button.favorite, button.star,
+button.more, button.checkbox, button.dialog,
+button.calendar, button.timer, button.map,
+button.marker, button.bookmark, button.tag,
+button.image, button.folder, button.desc,
+button.attach, button.copy, button.paste,
+button.click, button.keyboard, button.refresh,
+button.pause, button.secret, button.person,
+button.group, button.lock, button.language,
+button.color, button.left-panel, button.right-panel,
+button.json, button.markdown, button.html,
+button.css, button.javascript, button.add,
+button.back, button.list, button.del,
+button.edit, button.login, button.logout,
+button.in, button.out, button.reply,
+button.comment, button.modal, button.ok,
+button.cancel, button.sidebar, button.sidebar-right,
+button.setting
+{
+	position: relative;
+	left: 0;
+	top: 0;
+	padding-left: 35px;
+}
+
 
 button.home::before {
 	font-family: var(--icon-font);
@@ -1025,16 +1052,15 @@ button.setting::before {
 }
 
 
-
-
-button::before {
+/* 기본 버튼 아이콘(제거했음) */
+/* button::before {
 	font-family: var(--icon-font);
   	content: '\e323';
 	position: absolute;
 	left: 11px;
 	top: 4px;
 	font-size: 1.25rem;
-}
+} */
 
 
 body > table,
