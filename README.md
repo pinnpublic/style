@@ -468,7 +468,7 @@ https://fonts.google.com/icons
 수평선을 만든다.
 
 - `<hr>`: margin(1rem)
-- `<hr class="thin">`: margin(.5rem)
+- `<hr class="thin">`: margin(0.5rem)
 - `<hr class="thick">`: margin(2rem)
 
 ### List
