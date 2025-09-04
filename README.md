@@ -463,6 +463,14 @@ https://fonts.google.com/icons
 </div>
 ```
 
+### HR
+
+수평선을 만든다.
+
+- `<hr>`: margin(1rem)
+- `<hr class="thin">`: margin(.5rem)
+- `<hr class="thick">`: margin(2rem)
+
 ### List
 
 목록을 만든다.
