@@ -441,6 +441,10 @@ input[type=text], input[type=password], textarea, button, select {
 	/* width: 300px; */
 }
 
+input[type=color] {
+	padding: 3px;
+}
+
 textarea {
 	display: block;
 	height: 100px;
@@ -1159,6 +1163,12 @@ a:hover {
 hr {
 	border: 0;
 	border-top: 1px solid var(--border-color);
+	margin: 1rem 0;
+}
+hr.thin {
+	margin: .5rem 0;
+}
+hr.thick {
 	margin: 2rem 0;
 }
 
