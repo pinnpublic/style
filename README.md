@@ -489,6 +489,31 @@ https://fonts.google.com/icons
 </div>
 ```
 
+### Flex
+
+플랙스 레이아웃을 만든다.
+
+```
+- `<div class="flex">`: flex + item-align(center) + gap(5px)
+- `<div class="flex gap픽셀">`: 0px ~ 20px
+- `<div class="flex gap0">`: flex + item-align(center) + gap(0px)
+- `<div class="flex gap1">`: flex + item-align(center) + gap(1px)
+- `<div class="flex gap5">`: flex + item-align(center) + gap(5px)
+- `<div class="flex gap10">`: flex + item-align(center) + gap(10px)
+```
+
+### Space
+
+빈 `<div>`를 만든다. (세로 여백 띄우기용)
+
+```
+- `<div class="space">`: height(10px)
+- `<div class="space픽셀">`: 1px ~ 20px
+- `<div class="space1">`: height(1px)
+- `<div class="space5">`: height(5px)
+- `<div class="space10">`: height(10px)
+```
+
 ### Programming Code
 
 코드를 삽입한다.

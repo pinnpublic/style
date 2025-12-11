@@ -1323,6 +1323,184 @@ label input[type=checkbox], label input[type=radio] {
 	justify-content: space-between;
 }
 
+.space {
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0 !important;
+	height: 10px !important;
+}
+
+.space1 {
+	height: 1px !important;
+}
+
+.space2 {
+	height: 2px !important;
+}
+
+.space3 {
+	height: 3px !important;
+}
+
+.space4 {
+	height: 4px !important;
+}
+
+.space5 {
+	height: 5px !important;
+}
+
+.space6 {
+	height: 6px !important;
+}
+
+.space7 {
+	height: 7px !important;
+}
+
+.space8 {
+	height: 8px !important;
+}
+
+.space9 {
+	height: 9px !important;
+}
+
+.space10 {
+	height: 10px !important;
+}
+
+.space11 {
+	height: 11px !important;
+}
+
+.space12 {
+	height: 12px !important;
+}
+
+.space13 {
+	height: 13px !important;
+}
+
+.space14 {
+	height: 14px !important;
+}
+
+.space15 {
+	height: 15px !important;
+}
+
+.space16 {
+	height: 16px !important;
+}
+
+.space17 {
+	height: 17px !important;
+}
+
+.space18 {
+	height: 18px !important;
+}
+
+.space19 {
+	height: 19px !important;
+}
+
+.space20 {
+	height: 20px !important;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.flex.gap0 {
+	gap: 0px;
+}
+
+.flex.gap1 {
+	gap: 1px;
+}
+
+.flex.gap2 {
+	gap: 2px;
+}
+
+.flex.gap3 {
+	gap: 3px;
+}
+
+.flex.gap4 {
+	gap: 4px;
+}
+
+.flex.gap5 {
+	gap: 5px;
+}
+
+.flex.gap6 {
+	gap: 6px;
+}
+
+.flex.gap7 {
+	gap: 7px;
+}
+
+.flex.gap8 {
+	gap: 8px;
+}
+
+.flex.gap9 {
+	gap: 9px;
+}
+
+.flex.gap10 {
+	gap: 10px;
+}
+
+.flex.gap11 {
+	gap: 11px;
+}
+
+.flex.gap12 {
+	gap: 12px;
+}
+
+.flex.gap13 {
+	gap: 13px;
+}
+
+.flex.gap14 {
+	gap: 14px;
+}
+
+.flex.gap15 {
+	gap: 15px;
+}
+
+.flex.gap16 {
+	gap: 16px;
+}
+
+.flex.gap17 {
+	gap: 17px;
+}
+
+.flex.gap18 {
+	gap: 18px;
+}
+
+.flex.gap19 {
+	gap: 19px;
+}
+
+.flex.gap20 {
+	gap: 20px;
+}
+
+
 div.box-list {
 	width: max-content;
 	margin: 1rem;
