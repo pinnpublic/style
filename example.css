@@ -1500,6 +1500,11 @@ label input[type=checkbox], label input[type=radio] {
 	gap: 20px;
 }
 
+input[type=file] {
+	height: 19px !important;
+	padding:4px !important;
+	padding-bottom: 11px !important;
+}
 
 div.box-list {
 	width: max-content;
