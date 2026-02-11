@@ -22,7 +22,7 @@ Visual Studio Code > Extensions > `수업용 CSS Framework` 검색 > 설치
 - 폰트 CSS URL 자동완성 지원
 - 버튼 클래스 자동완성 지원
 
-<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/08a6f255-a892-40d5-a3ff-96d0d0f9da32" />
+<img width="582" height="483" alt="Image" src="https://github.com/user-attachments/assets/08a6f255-a892-40d5-a3ff-96d0d0f9da32" />
 <br><br>
 
 <br>
