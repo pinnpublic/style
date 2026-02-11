@@ -22,6 +22,9 @@ Visual Studio Code > Extensions > `수업용 CSS Framework` 검색 > 설치
 - 폰트 CSS URL 자동완성 지원
 - 버튼 클래스 자동완성 지원
 
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/08a6f255-a892-40d5-a3ff-96d0d0f9da32" />
+<br><br>
+
 <br>
 
 ## CDN
@@ -101,7 +104,7 @@ https://fonts.google.com/icons
 ```
 
 <img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/15d9f99a-1742-483f-8c8c-8b271014e7d6" />
-
+<br><br>
 
 ### Theme
 
@@ -115,6 +118,9 @@ https://fonts.google.com/icons
 - `<html class="theme-blue">`: 블루 테마
 - `<html class="theme-green">`: 그린 테마
 - `<html class="theme-purple">`: 퍼플 테마
+
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/23425bb2-d511-4683-968f-c30ae0a33a2d" />
+<br><br>
 
 ### Font
 
@@ -163,6 +169,10 @@ https://fonts.google.com/icons
 - `<link rel="stylesheet" href="https://bit.ly/4dy3156">`: Y최애체
 - `<link rel="stylesheet" href="https://bit.ly/45naIJ9">`: 윤초록우산어린이 만세
 
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/62e55a90-8901-45bf-8d5f-f692f18cbfad" />
+<br><br>
+
+
 ### Body
 
 문서 너비를 조절한다.
@@ -207,6 +217,10 @@ https://fonts.google.com/icons
 </header>
 ```
 
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/5fabd6cf-e2cd-4f24-a269-562fbf4a20b1" />
+<br><br>
+
+
 ```html
 <header>
   <h1>Title</h1>
@@ -226,6 +240,10 @@ https://fonts.google.com/icons
   </ul>
 </header>
 ```
+
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/2dd39409-7292-449b-94ea-d86be952c054" />
+<br><br>
+
 
 ### Heading
 
@@ -255,6 +273,11 @@ https://fonts.google.com/icons
 <h1 class="main">Spring Boot <small>Security</small></h1>
 ```
 
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/d0aa13de-a3d2-49d4-b578-f9bd08bd31d8" />
+<br><br>
+
+
+
 ### Form Controls
 
 컨트롤의 모양을 지정한다.
@@ -272,6 +295,11 @@ https://fonts.google.com/icons
 <input type="text" name="tel" class="full" placeholder="주소 입력" />
 ```
 
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/2f7333c3-0a33-4767-a4f6-d494e77969e8" />
+<br><br>
+
+
+
 ### 버튼
 
 메인 버튼에 색상을 지정할 수 있다.
@@ -283,6 +311,7 @@ https://fonts.google.com/icons
 ```html
 <input type="button" class="primary" />
 ```
+
 
 ### 이미지 버튼
 
@@ -339,6 +368,12 @@ https://fonts.google.com/icons
 - `<button class="css">CSS</button>`
 - `<button class="javascript">JavaScript</button>`
 
+
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/109d2a8b-51d3-4594-8da1-01b44230d9c5" />
+<br><br>
+
+
+
 ### Label Control
 
 라벨이 있는 입력 도구를 만든다.(feat.텍스트박스)
@@ -349,6 +384,11 @@ https://fonts.google.com/icons
   <input type="text" />
 </div>
 ```
+
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/c30f134b-0277-4d40-a45a-abca35358a36" />
+<br><br>
+
+
 
 ### Button Group
 
@@ -365,6 +405,11 @@ https://fonts.google.com/icons
   <button class="list">목록보기</button>
 </div>
 ```
+
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/127547e5-1af9-485f-89bd-8b029c0d214b" />
+<br><br>
+
+
 
 ### Table
 
@@ -396,6 +441,10 @@ https://fonts.google.com/icons
 </table>
 ```
 
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/9cb39436-a1d3-40bd-8a85-746cf54cface" />
+<br><br>
+
+
 - 세로 모드 : `<table class="vertical">`
 
 ```html
@@ -415,6 +464,9 @@ https://fonts.google.com/icons
 </table>
 ```
 
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/0dd3169a-ba9e-45cc-b9b3-ed799c9908f2" />
+<br><br>
+
 - 셀 수평 정렬
   - `<td>`: 중앙 정렬
   - `<td class="left">`: 좌측 정렬
@@ -433,6 +485,11 @@ https://fonts.google.com/icons
 - `<div class="message">Content</div>`: 100%
 - `<div class="message short">Content</div>`: 250px
 - `<div class="message long">Content</div>`: 500px
+
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/8b95ff1f-1c60-4612-8634-19b5b03842d0" />
+<br><br>
+
+
 
 ### Badge
 
@@ -455,6 +512,9 @@ https://fonts.google.com/icons
 - `<span class="badge green">5</span>`
 - `<span class="badge orange">5</span>`
 
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/40dd141f-b0ad-4560-bf70-cc5e2e6fcf08" />
+<br><br>
+
 ### Seperate
 
 컨테이너의 두 요소를 좌우로 분리 정렬한다.
@@ -466,6 +526,10 @@ https://fonts.google.com/icons
 </div>
 ```
 
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/9f503ce6-fa05-4703-889e-bf185cb78dc2" />
+<br><br>
+
+
 ### HR
 
 수평선을 만든다.
@@ -473,6 +537,10 @@ https://fonts.google.com/icons
 - `<hr>`: margin(1rem)
 - `<hr class="thin">`: margin(0.5rem)
 - `<hr class="thick">`: margin(2rem)
+
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/b1eb92bf-4f73-4a4c-b870-e7c0ceb19448" />
+<br><br>
+
 
 ### List
 
@@ -491,6 +559,10 @@ https://fonts.google.com/icons
   <div>item</div>
 </div>
 ```
+
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/e1c17378-7da9-476b-bf6f-88122373110f" />
+<br><br>
+
 
 ### Flex
 
@@ -528,6 +600,10 @@ https://fonts.google.com/icons
 </pre>
 ```
 
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/520bf334-d34b-45b8-b39d-278e4e9b7330" />
+<br><br>
+
+
 ### Pagebar
 
 페이지 바를 만든다.
@@ -552,6 +628,10 @@ https://fonts.google.com/icons
   <a href="#!" class="next">&gt;&gt;</a>
 </div>
 ```
+
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/933d0cb5-9d80-4ac4-a35b-0b336c79e0ad" />
+<br><br>
+
 
 ### Modal
 
@@ -588,6 +668,10 @@ https://fonts.google.com/icons
 </div>
 ```
 
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/3274fd5e-12c8-4ce7-a32e-a061ce1b63b4" />
+<br><br>
+
+
 ### Sidebar
 
 사이드바를 띄운다. `group` 식별자를 통해 패널을 구성한다.
@@ -607,6 +691,9 @@ https://fonts.google.com/icons
   Lorem ipsum dolor sit amet consectetur adipisicing elit.
 </div>
 ```
+
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/3dae5bee-7c9b-4136-b8bf-a8efbf7ee52e" />
+<br><br>
 
 ---
 
