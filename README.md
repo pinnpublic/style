@@ -100,7 +100,7 @@ https://fonts.google.com/icons
 </html>
 ```
 
-<img width="818" height="933" alt="Image" src="https://github.com/user-attachments/assets/15d9f99a-1742-483f-8c8c-8b271014e7d6" />
+<img width="800" style="border: 1px solid #777; padding: 1px;" alt="Image" src="https://github.com/user-attachments/assets/15d9f99a-1742-483f-8c8c-8b271014e7d6" />
 
 
 ### Theme
