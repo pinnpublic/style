@@ -1,6 +1,6 @@
 # 수업용 CSS Framework
 
-This is a class library repository.
+수업에 사용하는 자체 제작 CSS Framework 입니다.
 
 <br>
 
