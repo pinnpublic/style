@@ -103,11 +103,7 @@ https://fonts.google.com/icons
 </html>
 ```
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark-image.png">
-  <source media="(prefers-color-scheme: light)" srcset="light-image.png">
-  <img width="800" style="border: 1px solid #777; padding: 1px; outline:10px solid blue;" alt="Image" src="https://github.com/user-attachments/assets/15d9f99a-1742-483f-8c8c-8b271014e7d6" />
-</picture>
+<img width="800" border="1" style="border: 1px solid #777; padding: 1px; outline:10px solid blue;" alt="Image" src="https://github.com/user-attachments/assets/15d9f99a-1742-483f-8c8c-8b271014e7d6" />
 
 <br><br>
 
